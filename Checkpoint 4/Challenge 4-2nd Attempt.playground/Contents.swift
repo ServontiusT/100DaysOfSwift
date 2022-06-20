@@ -16,7 +16,7 @@ func sqrtFinder(number: Int) throws -> Int {
         }
         if squareRootCounter == number && squareRoot == 0 {
             throw sqrtError.noRootFound
-        }else {
+        } else {
             squareRootCounter+=1
         }
     }
